@@ -1,0 +1,121 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 25px;
+  background: #ffffff;
+  box-shadow: 0 2px 20px rgb(255, 255, 255);
+  overflow: hidden;
+}
+
+svg {
+  width: 50px;
+  background-color: rgb(255, 255, 255);
+}
+
+h3 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.navbar button {
+  padding: 8px 10px;
+  margin-right: 40px;
+  background: orange;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.navbar button:hover {
+  background: orangered;
+}
+
+.parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 20px 20px;
+  background: #000000;
+}
+
+main {
+  width: 80%;
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+section {
+  background-color: #ffffff;
+  padding-bottom: 1100px;
+  border-radius: 8px;
+
+  box-shadow: 0 2px 20px rgb(255, 255, 255);
+}
+
+section:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.form-box {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 400px;
+  height: 300px;
+  padding: 20px;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgb(0, 0, 0);
+  z-index: -1;
+}
+
+.form-box.show {
+  z-index: 2000;
+}
+
+.form-box h3 {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.form-box input {
+  width: 95%;
+  padding: 8px;
+  margin: 6px 0;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+.form-box button {
+  width: 20%;
+  padding: 8px;
+  margin: 6px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+.form-box button {
+  background: orange;
+  color: white;
+
+  margin-left: 80px;
+  margin-top: 40px;
+  border: none;
+  cursor: pointer;
+}
+
+.form-box button:hover {
+  background: orangered;
+}
